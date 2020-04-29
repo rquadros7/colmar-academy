@@ -78,19 +78,19 @@ h3 {
     font-weight: normal;
     color: #fff;
 }
-.container {
+#banner {
     background-color:#0A4958;
     position: relative;
     top: 70px;
     display: flex;    
 }
 
-.container img {
+#banner img {
     width: 50%;
     padding: 32px 24px;
 }
 
-.heading {
+#banner .heading {
     position: relative;
     top: 15%;
     width: 65%;
@@ -107,14 +107,27 @@ button {
 }
 
 @media screen and (min-width: 200px) and (max-width: 900px) {
-    .container {
+    #banner {
         flex-direction: column;
     }
-    .container img {
+    #banner img {
         width: 90%;
     }
-    .heading {
+    #banner .heading {
         width: 90%;
         padding: 32px 24px;
     }
+}
+
+#information {
+    display: flex;
+    position: relative;
+    top: 70px;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+#information img {
+    width: 50%;
+    padding: 32px 24px;
 }
