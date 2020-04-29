@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: whitesmoke;
     font-family: 'Cabin', sans-serif;
     margin: 0px;
 }
@@ -30,7 +30,12 @@ body {
 }
 
 .navigation p strong {
-    color: lightseagreen;
+    color: #0A4958;
+}
+
+.navigation p {
+    color: lightgray;
+    font-weight: normal;
 }
 
 .navigation ul, 
@@ -60,4 +65,42 @@ body {
     .small-screen {
         visibility: hidden;
     }
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color:#fff;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+}
+.container {
+    background-color:#0A4958;
+    position: relative;
+    top: 70px;
+    display: flex;    
+}
+
+.container img {
+    width: 50%;
+    padding: 32px 24px;
+}
+
+.heading {
+    position: relative;
+    top: 15%;
+}
+
+button {
+    background-color: #F6E7D2;
+    padding: 8px 40px;
+    font-size: large;
+    font-weight: 900;
+    position: relative;
+    left: 30%;
+    color: #0A4958;
 }
