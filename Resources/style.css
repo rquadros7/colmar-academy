@@ -124,8 +124,9 @@ button {
     position: relative;
     top: 70px;
     flex-direction: row;
-    background-color: lightgrey;
+    background-color: white;
     width: 100%;
+    height: auto;
 }
 
 #left {
@@ -136,27 +137,38 @@ button {
 
 #left h2 {
     margin: 0px;
-    padding: 0 24px;
+    padding: 0px 24px;
     color: #0A4958
 }
 
 #left p {
     margin: 0px;
-    padding: 10px 24px;
+    padding: 10px 24px;  
 }
 
 #left img {
     padding: 32px 24px;
+    width: 100%;
 }
 
 #right {
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
     width: 40%;
-    background-color: aqua;
 }
 
-#right img {
-    width: 35%;
-    height: auto;
+#right .image {
+    padding: 16px;
 }
+
+#right h3 {
+    color: #0A4958;
+}
+
+ #right .row {
+     display: flex;
+     flex-direction: row;
+     width: 65%;
+     vertical-align: middle;
+ }
