@@ -172,3 +172,44 @@ button {
      width: 65%;
      vertical-align: middle;
  }
+
+ #start-learning {
+     background-color: whitesmoke;
+     padding-top: 32px;
+     position: relative;
+ }
+
+ #start-learning h2 {
+     color: #0A4958;
+     text-align: center;
+ }
+
+ #start-learning .container {
+     display: flex;
+     justify-content: space-between;
+     justify-items: center;
+     flex-wrap: wrap;
+     padding: 32px 72px;
+ }
+
+ #start-learning .item {
+     background-color: #fff;
+     width: 30%;
+     margin-bottom: 32px;
+ }
+
+ #start-learning img {
+     height: auto;
+     width: 100%;
+ }
+
+ #start-learning h4 {
+     color: #0A4958;
+     padding-top: 10px;
+     padding-left: 16px;
+     font-size: larger;
+ }
+
+ #start-learning p {
+     padding: 0px 16px 0px 16px;
+ }
