@@ -283,3 +283,44 @@ button {
          width: 100%;
      }
  }
+
+ /*CSS for Thesis section*/
+
+ #thesis {
+    position: relative;
+    background-color: white;
+}
+
+#thesis h2 {
+    color: #0A4958;
+    text-align: center;
+    padding-top: 32px;
+    margin-bottom: 0px;
+}
+
+#thesis .main-container {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+}
+
+#thesis .left-container {
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   padding: 32px 24px;
+}
+
+video {
+    width: 100%;
+}
+
+#thesis .right-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#thesis .info {
+    margin-top: 20px;
+}
