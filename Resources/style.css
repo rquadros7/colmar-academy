@@ -338,3 +338,26 @@ video {
         width: 100%;
     }
 }
+
+/*CSS for Footer section*/
+
+footer p {
+    padding: 16px 24px;
+}
+
+footer ul {
+    list-style-type: none;
+    float: right;
+    display: inline-flex;
+    position: relative;
+    bottom: 70px;
+    padding-right: 24px;
+}
+
+footer li {
+    padding-left: 16px;
+}
+
+footer {
+    height:;
+}
