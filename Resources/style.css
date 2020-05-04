@@ -54,14 +54,14 @@ body {
     padding-left: 16px;
 }
 
-@media screen and (min-width: 200px) and (max-width: 550px) {
+@media screen and (min-width: 200px) and (max-width: 585px) {
     .navigation p,
     .large-screen {
         visibility: hidden;
     }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 586px) {
     .small-screen {
         visibility: hidden;
     }
@@ -76,7 +76,7 @@ h2 {
 h3 {
     font-size: 30px;
     font-weight: normal;
-    color: #fff;
+    color: white;
 }
 #banner {
     background-color:#0A4958;
@@ -95,6 +95,10 @@ h3 {
     top: 15%;
     width: 65%;
     padding-left: 24px;
+}
+
+.heading h3 {
+    color: white;
 }
 
 button {
@@ -159,7 +163,7 @@ button {
     flex-direction: row;
     align-items: center;
     padding: 16px 16px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .info-image-box {
@@ -177,17 +181,70 @@ button {
     color: #0A4958;
 }
 
+@media only screen and (max-width: 800px) {
+    #information .main-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #information .left-container {
+        display: flex;
+        width: 100%;
+    }
+
+    #information .right-container {
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:551px) {
+    img#mob {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #information .right-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .info {        
+        display: flex;
+        flex-direction: column;
+        padding: 16px 16px;
+        margin-top: 0px;
+    }
+
+    img#main {
+        visibility: hidden;
+        height: 0px;
+    }
+
+    .img#mob {
+        visibility: visible;
+        width: 100%;
+    }
+
+    .info-image-box,
+    .info-text-box {
+        width: 100%;
+    }
+}
+
  /*CSS for Start Learning section*/
 
  #start-learning {
      background-color: whitesmoke;
-     padding-top: 32px;
      position: relative;
  }
 
  #start-learning h2 {
      color: #0A4958;
      text-align: center;
+     padding-top: 32px;
  }
 
  #start-learning .container {
