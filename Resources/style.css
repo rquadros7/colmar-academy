@@ -119,8 +119,63 @@ button {
     }
 }
 
-/*CSS for Information section*/
+ /*CSS for Information section*/
 
+ #information {
+     position: relative;
+     top: 70px;
+ }
+
+ #information .main-container {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#information .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.left-container img {
+    width: 100%;
+}
+
+#information .right-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.right-container img {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 16px;
+    margin-top: 15px;
+}
+
+.info-image-box {
+    width: 35%;
+    height: auto;
+}
+
+.info-text-box {
+    width: 65%;
+    height: auto;
+    padding-left: 16px;
+}
+
+#information h2, h3 {
+    color: #0A4958;
+}
 
  /*CSS for Start Learning section*/
 
@@ -164,3 +219,5 @@ button {
  #start-learning p {
      padding: 0px 16px 0px 16px;
  }
+
+
